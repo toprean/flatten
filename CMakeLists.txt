@@ -1,0 +1,7 @@
+SET(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} -mtune=native -O3 -falign-functions=16 -falign-jumps -falign-labels -falign-loops=16 -foptimize-strlen -Wfatal-errors -Wall -Wextra -Wformat -Wformat-security -Wpointer-arith -Wno-unused-function ")
+cmake_minimum_required(VERSION 2.8)
+project( flatten )
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable( flatten flatten.cpp )
+target_link_libraries( flatten ${OpenCV_LIBS} )
