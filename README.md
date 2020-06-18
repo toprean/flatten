@@ -208,7 +208,7 @@ ffmpeg -hide_banner -framerate 30000/1001 -i ~/mydir1/frame-%06d-b.JPG -pix_fmt 
 
 Let's say that you have an MP4 file: `~/mydir2/test.MP4`
 
-Make a copy of `flatten-settings.xml` from this repository to `~/mydir2`. Modify the content of that XML file to reference the the MP4 file directly in the `<input>` tag. Update the dimensions to match the MP4 file. The same principles apply as before when it comes to the intermediate and final dimensions. This is the only XML file neded in this scenario.
+Make a copy of `flatten-settings.xml` from this repository to `~/mydir2`. Modify the content of that XML file to reference the MP4 file directly in the `<input>` tag. Update the dimensions to match the MP4 file. The same principles apply as before when it comes to the intermediate and final dimensions. This is the only XML file neded in this scenario.
 
 In a terminal window, run this command:
 ```
