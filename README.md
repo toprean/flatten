@@ -19,7 +19,9 @@ It creates new files with similar naming, so you can compare "before" against "a
 
 It uses OpenCV and an XML file containing lens-specific flattening coefficients to achieve this objective.
 
-The first lens for which I derived the flattening coefficients is the 90 degree lens of the Firefly 8SE action camera for consumer 4K resolution (3840x2160). I have included the XML file for that specific camera and resolution in this repository.
+The first lens for which I derived the flattening coefficients is the 90 degree rectilinear wide angle lens of the Firefly 8SE action camera for consumer 4K resolution (3840x2160). I have included the XML file for that specific camera and resolution in this repository.
+
+The second lens for which I derived the flattening coefficients is the 170 degree fisheye lens of the Firefly 8SE action camera for consumer 4K resolution (3840x2160). I have included the XML file for that specific camera and resolution in this repository.
 
 You can see a demo of the results on my youtube channel:
 https://www.youtube.com/channel/UCLrEgKOm4E9Sdd2X2Gno2-Q
