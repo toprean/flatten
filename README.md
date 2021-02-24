@@ -67,7 +67,7 @@ I used OpenCV for deriving the coefficients because OpenCV was specifically desi
 
 OpenCV meets my needs exactly, so I have settled on that tool for flattening distortion in post processing.
 
-Note: Your sample of the same camera model might differ slightly due to lens alignment differences, so calibrating each camera individually might be necessary for optimual results. You can use the coefficients I derived as a starting point.
+Note: Your sample of the same camera model might differ slightly due to lens alignment differences, so calibrating each camera individually might be necessary for optimal results. You can use the coefficients I derived as a starting point.
 
 # Prerequisite: C++ compiler
 I used GCC on Linux Mint to compile everything. (64-bit Linux Mint 19.3, with CPU being Intel Core i5 x86-64)
